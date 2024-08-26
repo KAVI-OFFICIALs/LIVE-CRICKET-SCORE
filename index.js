@@ -5,7 +5,7 @@ const app = express();
 const port = 3000;
 
 // Replace with your CricAPI key
-const API_KEY = 'YOUR_CRICAPI_KEY';
+const API_KEY = 'fdc2ace6-1521-4bc3-969e-f35f0148dbed';
 const API_URL = `https://cricapi.com/api/matches?apikey=${API_KEY}`;
 
 app.use(express.static(path.join(__dirname, 'public')));
